@@ -11,11 +11,11 @@ export default function App() {
     <div className="App">
       <BrowserRouter>
       <Header/>
-      <Home/>
+      <Login/>
        <Routes>
          <Route path="/" element={<Home/>}/>
          <Route path="/checkout" element={<Checkout/>}/>
-         <Route path="/login" element={<Login/>}/>
+         {/* <Route path="/login" element={<Login/>}/> */}
        </Routes>
       
       </BrowserRouter>
